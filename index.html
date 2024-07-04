@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CamFeat</title>
+  </head>
+  <body>
+    <header>
+      <h1>cam<span>Feat</span></h1>
+    </header>
+
+    <div class="camera-container">
+      <video id="video" autoplay></video>
+      <button id="open-cam-btn">Open Cam</button>
+      <button id="capture" onclick="capturePhoto()">Capture Photo</button>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
